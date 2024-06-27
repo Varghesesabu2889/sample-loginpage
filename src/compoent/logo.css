@@ -1,0 +1,154 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white
+} 
+ .box{
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+ border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+ } 
+.logoDiv{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+ .logo-text{
+color: #19181F;
+font-family: 'Franklin Gothic Medium';
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+}
+.heading{
+  font-family: 'Franklin Gothic Medium';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  color: #100F14;
+}
+.sub-heading{
+font-family:AriaL;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.005em;
+text-align: left;
+color: #49475A;
+}
+.email-head{
+  font-family: Arial;
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+color: #9794AA;
+
+}
+
+
+
+
+.email-box{
+  width: 450px;
+  height: 64px;
+  padding: 19.5px 20px;
+  margin: 0; 
+  box-sizing: border-box; 
+  border-radius: 6px 0 0 0;
+  border: 1px solid;
+  border-right: none;
+   opacity: 1;  
+   border-color: #CBCAD7;
+}
+.pass-head{
+ font-family: Arial;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 25px;
+ color: #9794AA;
+}  
+.pass-box{
+    width: 450px;
+    height: 64px;
+    padding: 19.5px 20px;
+    margin: 0; 
+    box-sizing: border-box; 
+    border-radius: 6px 0 0 0;
+    border: 1px solid;
+    border-right: none;
+     opacity: 1;  
+     border-color: #CBCAD7;
+  }
+
+.btn-box{
+  width: 485px;
+height: 56px;
+padding: 12.5px 184.5px 13.5px 184.5px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+background-color: #7A5AF8;
+color: white;
+margin-top: 30px;
+margin-right: 10px;
+}
+
+.rightSide{
+  width: 720px;
+height:auto;
+left: 720px;
+gap: 0px;
+border-radius: 60px 0px 0px 60px;
+opacity: 0px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px;
+background-image: url(../assets/Sky.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    top: 256px;
+    background-color: #6938EF;
+    margin-top: 100px;
+    margin-left: 35px;  
+
+}
+.right-head{
+font-family: Arial;
+font-size: 28px;
+font-weight: 600;
+line-height: 58px;
+text-align: left;
+color: white;
+
+}
+.right-para{
+  font-family: Arial;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: #F6F6F8;
+
+}
